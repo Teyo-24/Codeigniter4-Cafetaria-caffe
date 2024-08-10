@@ -7,8 +7,12 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 // $routes->get('/', 'Home::index');s
-$routes->get('/landing', 'landing\LandingController::index');
+// $routes->get('/', 'landing\LandingController::index');
+$routes->get('/', 'landing\LandingController::index');
 $routes->get('/product', 'landing\LandingController::product');
 $routes->get('/article', 'landing\LandingController::article');
 $routes->get('/activity', 'landing\LandingController::activity');
+$routes->get('/about', 'landing\LandingController::about');
+$routes->get('/contact', 'landing\LandingController::contact');
+
 // $routes->get('/landing', return view('landing/landing'));

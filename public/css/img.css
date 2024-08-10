@@ -7,6 +7,43 @@
 .navbar-nav {
   background-color: 494341;
 }
+/* Sticky animasi*/
+/* Awalnya navbar menggunakan background-color dari Bootstrap */
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+  padding: 20px 0; /* Padding awal */
+}
+
+/* Sticky saat scroll */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Warna background lebih gelap saat sticky */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan shadow untuk efek floating */
+  padding: 10px 0; /* Ukuran padding berkurang saat sticky */
+}
+
+/* Tambahkan animasi untuk perubahan padding dan shadow */
+.sticky.animate {
+  animation: stickyAnim 0.5s forwards;
+}
+
+/* Definisikan keyframes untuk animasi */
+@keyframes stickyAnim {
+  from {
+    padding: 20px 0;
+    box-shadow: none;
+  }
+  to {
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
 
 body {
   font-family: "";
@@ -86,6 +123,7 @@ section.card-menu-produk {
   overflow: hidden;
   perspective: 1000px;
   transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
 }
 .card-menu-produk svg {
   fill: #333;
@@ -125,9 +163,9 @@ section.card-menu-produk {
   font-weight: 700;
 }
 
-.card-produk:hover svg {
+/* .card-produk:hover svg {
   scale: 0;
-}
+} */
 
 .card__description {
   margin: 10px 0 0;

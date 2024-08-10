@@ -2,64 +2,99 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafetaria Caffee</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css/img.css">
+    <meta charset="utf-8">
+    <title>Cafetaria Caffe</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/cafetaria.png">
+
+    <!-- Donts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container">
-            <img src="<?= base_url('/images/cafe2.png') ?>" alt="Cafe Image" class="img-cafe text-white">
-            <a class="navbar-brand text-white" href="#"><b>Cafetaria Caffee</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="<?= site_url('/landing'); ?>"><b>Home</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="<?= site_url('product'); ?>"><b>Product</b> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="<?= site_url('article'); ?>"><b>Articles</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="<?= site_url('activity'); ?>"><b>Activity</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#"><b>About</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#"><b>Contact</b></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Language
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Indonesia</a></li>
-                            <li><a class="dropdown-item" href="#">English</a></li>
-                        </ul>
-                    </li>
-                </ul>
+
+    <!-- Spinner Start -->
+
+    <!-- Spinner End -->
+
+
+
+    <!-- Navbar start -->
+    <div class="container-fluid bg-dark fixed-top">
+        <div class="container topbar bg-secondary d-none d-lg-block">
+            <div class="d-flex justify-content-between">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Suekarno-Hatta, Malang</a></small>
+                    <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Cafetaria@Example.com</a></small>
+                </div>
+                <div class="top-link pe-2">
+                    <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                    <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small></a>
+                </div>
             </div>
         </div>
-    </nav>
+        <div class="container px-0">
+            <nav class="navbar navbar-light bg-dark navbar-expand-xl d-flex align-items-center">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="<?= base_url('/images/cafe2.png') ?>" alt="Cafe Image" class="img-cafe" style="height: 50px; margin-right: 10px;">
+                    <h1 class="text-white display-6 mb-0">Cafetaria Caffee</h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-dark" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="<?= site_url('/'); ?>" class="nav-item nav-link text-white active">Home</a>
+                        <a href="<?= site_url('product'); ?>" class="nav-item nav-link text-white">Product</a>
+                        <a href="<?= site_url('article'); ?>" class="nav-item nav-link text-white">Article</a>
+                        <a href="<?= site_url('activity'); ?>" class="nav-item nav-link active text-white">Activity</a>
+                        <a href="<?= site_url('about'); ?>" class="nav-item nav-link text-white">About</a>
+                        <a href="<?= site_url('contact'); ?>" class="nav-item nav-link text-white">Contact</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Language</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="#" class="dropdown-item text-dark">Indonesia</a>
+                                <a href="#" class="dropdown-item text-dark">English</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
     <div>
         <?= $this->renderSection('content'); ?>
     </div>
-    <!-- Remove the container if you want to extend the Footer to full width. -->
-    <div class="">
+
+    <!-- Copyright Start -->
+    <!-- Copyright End -->
+    <div class="container-fluid">
         <footer class="text-white text-center text-lg-start bg-dark">
             <!-- Grid container -->
             <div class="container p-4">
@@ -67,7 +102,7 @@
                 <div class="row mt-4">
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4 me-5 text-center">About company</h5>
+                        <h5 class="text-uppercase mb-4 me-5 text-center text-white">About company</h5>
 
                         <p>
                             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
@@ -94,7 +129,7 @@
 
                     <!-- Grid column -->
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center text-center">
-                        <h5 class="text-uppercase mb-4 pb-1">Contact</h5>
+                        <h5 class="text-uppercase mb-4 pb-1 text-white">Contact</h5>
                         <ul class="fa-ul">
                             <li class="mb-3">
                                 <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw, 00-967, Poland</span>
@@ -112,7 +147,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4 text-center">Opening hours</h5>
+                        <h5 class="text-uppercase mb-4 text-center text-white">Opening hours</h5>
 
                         <table class="table table-dark text-center text-white">
                             <tbody class="fw-normal">
@@ -141,28 +176,22 @@
             </div>
             <!-- Grid container -->
         </footer>
-
     </div>
-    <!-- End of .container -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuItems = document.querySelectorAll('#product-menu .list-inline-item');
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-            menuItems.forEach(item => {
-                item.addEventListener('click', function(event) {
-                    // Prevent default anchor behavior
-                    event.preventDefault();
 
-                    // Remove active class from all menu items
-                    menuItems.forEach(item => item.classList.remove('active'));
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-                    // Add active class to the clicked menu item
-                    this.classList.add('active');
-                });
-            });
-        });
-    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
