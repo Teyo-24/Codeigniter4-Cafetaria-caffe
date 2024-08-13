@@ -12,7 +12,6 @@ class LandingController extends BaseController
         return view('landing/landing');
     }
 
-
     public function product()
     {
         return view('landing/product');
@@ -21,6 +20,11 @@ class LandingController extends BaseController
     public function article()
     {
         return view('landing/article');
+    }
+
+    public function detail_article()
+    {
+        return view('detail/detail_article');
     }
 
     public function activity()

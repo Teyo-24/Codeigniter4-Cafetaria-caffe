@@ -78,6 +78,7 @@ body {
   object-fit: cover;
   width: 100%; /* Pastikan gambar mengambil lebar penuh dari card */
 }
+
 .card-text {
   text-align: center;
 }

@@ -14,10 +14,11 @@
             <div class="card" style="width: 100%;">
                 <img src="<?= base_url('images/biji-kopi.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
                 <div class="card-body">
+                    <h3>Manfaat Kopi</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
-                        <a href="" class="btn btn-primary">Read More</a>
+                        <a href="<?= site_url('detail-article'); ?>" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
@@ -26,6 +27,7 @@
             <div class="card" style="width: 100%;">
                 <img src="<?= base_url('images/random.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
                 <div class="card-body">
+                    <h3>Manfaat Kopi</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
@@ -38,6 +40,7 @@
             <div class="card" style="width: 100%;">
                 <img src="<?= base_url('images/biji-kopi.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
                 <div class="card-body">
+                    <h3>Manfaat Kopi</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
