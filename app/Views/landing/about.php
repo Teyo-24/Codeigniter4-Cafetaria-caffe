@@ -9,7 +9,7 @@
     </ol>
 </div>
 <!-- Banner Section Start-->
-<div class="container-fluid banner">
+<div class="container-fluid banner bg-white">
     <div class="container py-5">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">

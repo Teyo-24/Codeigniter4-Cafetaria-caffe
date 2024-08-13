@@ -32,6 +32,11 @@ class LandingController extends BaseController
         return view('landing/activity');
     }
 
+    public function detail_activity()
+    {
+        return view('detail/detail_activity');
+    }
+
     public function about()
     {
         return view('landing/about');

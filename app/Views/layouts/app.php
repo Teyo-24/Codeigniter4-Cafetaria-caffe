@@ -33,6 +33,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -132,10 +134,10 @@
                         <h5 class="text-uppercase mb-4 pb-1 text-white">Contact</h5>
                         <ul class="fa-ul">
                             <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw, 00-967, Poland</span>
+                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2"> Jln. Soekarno-Hatta</span>
                             </li>
                             <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">contact@example.com</span>
+                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">cafetaria@example.com</span>
                             </li>
                             <li class="mb-3">
                                 <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 48 234 567 88</span>
