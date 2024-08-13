@@ -38,40 +38,49 @@
                     <p> Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141
                     </p>
                 </div>
-                <div class="">
-                    <h2 class="text-center py-3">Contact Newtwork</h2>
+                <div class="container">
+                    <h2 class="text-center py-3">Contact Network</h2>
                     <h5 class="text-center mb-5">You can contact us via the following contact</h5>
-                    <div class=" d-flex justify-content-between">
-                        <div class="d-flex p-4 rounded mb-4 bg-white">
-                            <i class="fab fa-instagram-square fa-2x text-warning me-4"></i>
-                            <div>
-                                <h4>Instagram</h4>
-                                <p class="mb-2">@Cafetaria</p>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="d-flex p-4 rounded bg-white">
+                                <i class="fab fa-instagram-square fa-2x text-warning me-4"></i>
+                                <div>
+                                    <h4>Instagram</h4>
+                                    <p class="mb-2">@Cafetaria</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex p-4 rounded mb-4 bg-white">
-                            <i class="fab fa-whatsapp-square fa-2x text-warning me-4"></i>
-                            <div>
-                                <h4>WhatsApp</h4>
-                                <p class="mb-2">(+012) 3456 7890</p>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="d-flex p-4 rounded bg-white">
+                                <i class="fab fa-whatsapp-square fa-2x text-warning me-4"></i>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <p class="mb-2">(+012) 3456 7890</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex p-4 rounded mb-4 bg-white">
-                            <i class="fab fa-facebook-square fa-2x text-warning me-4"></i>
-                            <div>
-                                <h4>Facebook</h4>
-                                <p class="mb-2">Cafetaria Caffee</p>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="d-flex p-4 rounded bg-white">
+                                <i class="fab fa-facebook-square fa-2x text-warning me-4"></i>
+                                <div>
+                                    <h4>Facebook</h4>
+                                    <p class="mb-2">Cafetaria Caffee</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="d-flex p-4 rounded mb-4 bg-white">
-                            <i class="fas fa-envelope-square fa-2x text-warning me-4"></i>
-                            <div>
-                                <h4>Mail Us</h4>
-                                <p class="mb-2">cafetaria@example.com</p>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="d-flex p-4 rounded bg-white">
+                                <i class="fas fa-envelope-square fa-2x text-warning me-4"></i>
+                                <div>
+                                    <h4>Mail Us</h4>
+                                    <p class="mb-2">cafetaria@example.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

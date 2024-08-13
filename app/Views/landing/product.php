@@ -5,12 +5,12 @@
     <ol class="breadcrumb justify-content-center mb-0">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-        <li class="breadcrumb-item active text-white">Activity</li>
+        <li class="breadcrumb-item active text-white">Product</li>
     </ol>
 </div>
 
 <div class="container">
-    <div class="py-3">
+    <div class="py-5">
         <h2>Coffee-Based Drinks</h2>
     </div>
     <div class="row">

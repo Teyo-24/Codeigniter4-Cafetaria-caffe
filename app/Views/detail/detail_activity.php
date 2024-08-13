@@ -50,7 +50,7 @@
                     <div class="col-lg-12">
                     </div>
                     <div class="col-lg-12">
-                        <h4 class="mb-4">Another Article</h4>
+                        <h4 class="mb-4">Another Activity</h4>
                         <section id="card1" class="card-menu-produk my-3">
                             <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
                                 <img src="<?= base_url('images/kopi1.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">

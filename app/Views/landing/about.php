@@ -1,11 +1,11 @@
 <?= $this->extend('layouts/app'); ?>
 <?= $this->section('content'); ?>
 <div class="container-fluid page-header py-5">
-    <h1 class="text-center text-white display-6">Article</h1>
+    <h1 class="text-center text-white display-6">About</h1>
     <ol class="breadcrumb justify-content-center mb-0">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-        <li class="breadcrumb-item active text-white">Article</li>
+        <li class="breadcrumb-item active text-white">About</li>
     </ol>
 </div>
 <!-- Banner Section Start-->
