@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Cafetaria Caffe</title>
+    <title><?= isset($title) ? $title : 'Cafetaria Caffee'; ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -39,12 +39,6 @@
 
 <body>
 
-    <!-- Spinner Start -->
-
-    <!-- Spinner End -->
-
-
-
     <!-- Navbar start -->
     <div class="container-fluid bg-dark fixed-top">
         <div class="container topbar bg-secondary d-none d-lg-block">
@@ -73,7 +67,7 @@
                         <a href="<?= site_url('/'); ?>" class="nav-item nav-link text-white active">Home</a>
                         <a href="<?= site_url('product'); ?>" class="nav-item nav-link text-white">Product</a>
                         <a href="<?= site_url('article'); ?>" class="nav-item nav-link text-white">Article</a>
-                        <a href="<?= site_url('activity'); ?>" class="nav-item nav-link active text-white">Activity</a>
+                        <a href="<?= site_url('activity'); ?>" class="nav-item nav-link text-white">Activity</a>
                         <a href="<?= site_url('about'); ?>" class="nav-item nav-link text-white">About</a>
                         <a href="<?= site_url('contact'); ?>" class="nav-item nav-link text-white">Contact</a>
                         <div class="nav-item dropdown">
@@ -181,7 +175,7 @@
     </div>
     <!-- Footer End -->
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="btn btn-warning border-3 border-warning rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

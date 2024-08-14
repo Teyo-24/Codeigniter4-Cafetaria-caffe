@@ -1,3 +1,4 @@
+<?php $this->setVar('title', 'Article');; ?>
 <?= $this->extend('layouts/app'); ?>
 <?= $this->section('content'); ?>
 <div class="container-fluid page-header py-5">
@@ -18,7 +19,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
-                        <a href="<?= site_url('detail-article'); ?>" class="btn btn-primary">Read More</a>
+                        <a href="<?= site_url('detail-article'); ?>" class="btn btn-dark">Read More</a>
                     </div>
                 </div>
             </div>
@@ -27,24 +28,24 @@
             <div class="card" style="width: 100%;">
                 <img src="<?= base_url('images/random.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
                 <div class="card-body">
-                    <h3>Manfaat Kopi</h3>
+                    <h3>Lingkungan yang Nyaman</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
-                        <a href="" class="btn btn-primary">Read More</a>
+                        <a href="<?= site_url('detail-article'); ?>" class="btn btn-dark">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-4 mb-4">
             <div class="card" style="width: 100%;">
-                <img src="<?= base_url('images/biji-kopi.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
+                <img src="<?= base_url('images/kopi1.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
                 <div class="card-body">
-                    <h3>Manfaat Kopi</h3>
+                    <h3>Temukan Ide dan Inspirasi</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="d-flex justify-content-between">
                         <i class="bi bi-calendar-week"> 20-02-2024</i>
-                        <a href="" class="btn btn-primary">Read More</a>
+                        <a href="<?= site_url('detail-article'); ?>" class="btn btn-dark">Read More</a>
                     </div>
                 </div>
             </div>

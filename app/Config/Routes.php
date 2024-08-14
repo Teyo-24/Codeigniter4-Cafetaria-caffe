@@ -14,6 +14,7 @@ $routes->get('/article', 'landing\LandingController::article');
 $routes->get('/activity', 'landing\LandingController::activity');
 $routes->get('/about', 'landing\LandingController::about');
 $routes->get('/contact', 'landing\LandingController::contact');
+$routes->get('/detail-product', 'landing\LandingController::detail_product');
 $routes->get('/detail-article', 'landing\LandingController::detail_article');
 $routes->get('/detail-activity', 'landing\LandingController::detail_activity');
 

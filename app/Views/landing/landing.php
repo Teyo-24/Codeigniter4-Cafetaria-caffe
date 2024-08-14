@@ -10,21 +10,21 @@
         <div class="carousel-item active">
             <img src="<?= base_url('images/kopi1.jpg'); ?>" class="d-block" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h5 class="display-6 text-white">Coffee</h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="<?= base_url('images/es.jpg'); ?>" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5 class="display-6 text-white">Non-Coffee Drinks</h5>
                 <p>Some representative placeholder content for the second slide.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="<?= base_url('images/makanan1.jpg'); ?>" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5 class="display-6 text-white">Food & Snack</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
@@ -68,61 +68,9 @@
     </div>
 </div>
 
-<!-- Featurs Section Start -->
-<div class="container-fluid featurs py-5">
-    <div class="container py-5">
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="featurs-item text-center rounded bg-light p-4">
-                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
-                        <i class="fas fa-car-side fa-3x text-white"></i>
-                    </div>
-                    <div class="featurs-content text-center">
-                        <h5>CATERING</h5>
-                        <p class="mb-0">Free on order over $300</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="featurs-item text-center rounded bg-light p-4">
-                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
-                        <i class="fas fa-shopping-bag  fa-3x text-white"></i>
-                    </div>
-                    <div class="featurs-content text-center">
-                        <h5>COFFEE PACK</h5>
-                        <p class="mb-0">100% security payment</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="featurs-item text-center rounded bg-light p-4">
-                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
-                        <i class="fas  fa-gift fa-3x text-white"></i>
-                    </div>
-                    <div class="featurs-content text-center">
-                        <h5>MERCHANDISE</h5>
-                        <p class="mb-0">30 day money guarantee</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="featurs-item text-center rounded bg-light p-4">
-                    <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
-                        <i class="fa fa-phone-alt fa-3x text-white"></i>
-                    </div>
-                    <div class="featurs-content text-center">
-                        <h5>24h OPEN</h5>
-                        <p class="mb-0">Support every time fast</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Featurs Section End -->
 
 <!-- Fruits Shop Start-->
-<div class="container-fluid fruite py-5">
+<div class="container-fluid fruite">
     <div class="container py-5">
         <div class="tab-class text-center">
             <div class="row g-4">
@@ -411,7 +359,7 @@
 <div class="container-fluid vesitable">
     <div class="container py-5">
         <div class="col-lg-4 text-center">
-            <h1>New Products</h1>
+            <h1 class="display-6">New Products</h1>
         </div>
         <div class="owl-carousel vegetable-carousel justify-content-center">
             <div class="border border-primary rounded position-relative vesitable-item">
@@ -420,7 +368,7 @@
                 </div>
                 <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Food</div>
                 <div class="p-4 rounded-bottom">
-                    <h4>Parsely</h4>
+                    <h4>French fries</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                 </div>
             </div>
@@ -430,7 +378,7 @@
                 </div>
                 <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Coffee</div>
                 <div class="p-4 rounded-bottom">
-                    <h4>Parsely</h4>
+                    <h4>Cappuccino</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                 </div>
             </div>
@@ -440,7 +388,7 @@
                 </div>
                 <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Non-Cofee</div>
                 <div class="p-4 rounded-bottom">
-                    <h4>Parsely</h4>
+                    <h4>Ice Coccolate</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                 </div>
             </div>
@@ -450,7 +398,7 @@
                 </div>
                 <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
                 <div class="p-4 rounded-bottom">
-                    <h4>Parsely</h4>
+                    <h4>Fruite Juice</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                 </div>
             </div>
@@ -460,10 +408,10 @@
 
 <section class="activity py-5">
     <div class="testimonial-header text-center">
-        <h4 class="text-primary">Our Events</h4>
-        <h1 class="display-5 mb-5 text-dark">Our Activity!</h1>
+        <!-- <h4 class="judul-about">Our Events</h4> -->
+        <h1 class="display-6 mb-5 text-dark">Our Activity!</h1>
     </div>
-    <div class="container py-5">
+    <div class="container py-3">
         <div class="row">
             <div class="col-12 col-md-4 mb-4">
                 <div class="card" style="width: 100%;">
@@ -474,7 +422,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark"><i>Read More</i></a>
                         </div>
                     </div>
                 </div>
@@ -488,7 +436,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark"><i>Read More</i></a>
                         </div>
                     </div>
                 </div>
@@ -502,7 +450,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark"><i>Read More</i></a>
                         </div>
                     </div>
                 </div>

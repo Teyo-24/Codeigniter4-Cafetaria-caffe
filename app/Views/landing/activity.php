@@ -1,3 +1,4 @@
+<?php $this->setVar('title', 'Activity');; ?>
 <?= $this->extend('layouts/app'); ?>
 <?= $this->section('content'); ?>
 <div class="container-fluid page-header py-5">
@@ -20,7 +21,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +35,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="<?= site_url('detail-activity'); ?>" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +49,7 @@
                         <div class="d-flex justify-content-evenly   ">
                             <i class="bi bi-calendar-week"> 20-02-2024 </i>
                             <i class="bi bi-person">Admin</i>
-                            <a href="" class="">Read More</a>
+                            <a href="<?= site_url('detail-activity'); ?>" class="btn btn-dark">Read More</a>
                         </div>
                     </div>
                 </div>
