@@ -56,8 +56,8 @@
         <div class="container px-0">
             <nav class="navbar navbar-light bg-dark navbar-expand-xl d-flex align-items-center">
                 <a href="index.html" class="navbar-brand d-flex align-items-center">
-                    <img src="<?= base_url('/images/cafe2.png') ?>" alt="Cafe Image" class="img-cafe" style="height: 50px; margin-right: 10px;">
-                    <h1 class="text-white display-6 mb-0">Cafetaria Caffee</h1>
+                    <img src="<?= base_url('/images/cafe2.png') ?>" alt="Cafe Image" class="img-cafe" style="height: 60px; margin-right: 10px;">
+                    <h1 class="text-white display-6 mb-0 mt-3">Cafetaria</h1>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>

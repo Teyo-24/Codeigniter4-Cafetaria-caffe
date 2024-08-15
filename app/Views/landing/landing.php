@@ -73,15 +73,15 @@
 <div class="container-fluid fruite">
     <div class="container py-5">
         <div class="tab-class text-center">
-            <div class="row g-4">
-                <div>
-                    <h3 class="judul-about text-center">Menu & Service</h3>
+            <<div class="row g-4 justify-content-center text-center">
+                <div class="col-12">
+                    <h3 class="judul-about">Menu & Service</h3>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 col-12">
                     <h1>Our Products</h1>
                 </div>
-                <div class="col-lg-8 text-end">
-                    <ul class="nav nav-pills d-inline-flex text-center mb-5">
+                <div class="col-lg-8 col-12">
+                    <ul class="nav nav-pills justify-content-center mb-5">
                         <li class="nav-item">
                             <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
                                 <span class="text-dark" style="width: 130px;">All Products</span>
@@ -104,246 +104,246 @@
                         </li>
                     </ul>
                 </div>
+        </div>
+
+        <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/kopi1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffe</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Cappuccino</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Nasi Goreng</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/es.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Ice Cocolate</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/juice.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Fruite Juice</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/kentang.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Kentang Goreng</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/milk.jpg" class="img-fluid w-10 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Mils Shake</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Nasi Goreng</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/latte.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Latte</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="tab-content">
-                <div id="tab-1" class="tab-pane fade show p-0 active">
-                    <div class="row g-4">
-                        <div class="col-lg-12">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/kopi1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffe</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Cappuccino</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+            <div id="tab-2" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/kopi1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffe</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Cappuccino</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Nasi Goreng</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/latte.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/es.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Ice Cocolate</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/juice.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Fruite Juice</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/kentang.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Kentang Goreng</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/milk.jpg" class="img-fluid w-10 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Mils Shake</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Nasi Goreng</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/latte.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Latte</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Coffee Latee</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab-2" class="tab-pane fade show p-0">
-                    <div class="row g-4">
-                        <div class="col-lg-12">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/kopi1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffe</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Cappuccino</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+            </div>
+            <div id="tab-3" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/es.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Ice Cocolate</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/latte.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Coffee Latee</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/juice.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Fruite Juice</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab-3" class="tab-pane fade show p-0">
-                    <div class="row g-4">
-                        <div class="col-lg-12">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/es.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Ice Cocolate</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+            </div>
+            <div id="tab-4" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Nasi Goreng</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/juice.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Non-Coffee</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Fruite Juice</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="images/kentang.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Kentang</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab-4" class="tab-pane fade show p-0">
-                    <div class="row g-4">
-                        <div class="col-lg-12">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/makanan1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Nasi Goreng</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+            </div>
+            <div id="tab-5" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="img/fruite-item-3.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="images/kentang.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Food</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Kentang</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Banana</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="tab-5" class="tab-pane fade show p-0">
-                    <div class="row g-4">
-                        <div class="col-lg-12">
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="img/fruite-item-3.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Banana</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="img/fruite-item-2.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
+                                    </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Raspberries</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="img/fruite-item-2.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Raspberries</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="rounded position-relative fruite-item">
+                                    <div class="fruite-img">
+                                        <img src="img/fruite-item-1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 col-xl-3">
-                                    <div class="rounded position-relative fruite-item">
-                                        <div class="fruite-img">
-                                            <img src="img/fruite-item-1.jpg" class="img-fluid w-100 card-img-fixed rounded-top" alt="">
-                                        </div>
-                                        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
-                                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>Oranges</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
-                                        </div>
+                                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
+                                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                        <h4>Oranges</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                     </div>
                                 </div>
                             </div>
@@ -353,6 +353,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <!-- Vesitable Shop Start-->

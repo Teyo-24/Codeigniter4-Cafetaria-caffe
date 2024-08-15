@@ -12,7 +12,7 @@
 
 <div class="container">
     <div class="py-5">
-        <h2>Coffee-Based Drinks</h2>
+        <h2 class="judul-about">Coffee-Based Drinks</h2>
     </div>
     <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">
@@ -83,7 +83,7 @@
         </div>
     </div>
     <div class="py-3">
-        <h2>Non-Coffee Drinks</h2>
+        <h2 class="judul-about">Non-Coffee Drinks</h2>
     </div>
     <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">
@@ -152,7 +152,7 @@
     <div class="py-3">
     </div>
     <div class="py-3">
-        <h2>Food & Snack</h2>
+        <h2 class="judul-about">Food & Snack</h2>
     </div>
     <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">

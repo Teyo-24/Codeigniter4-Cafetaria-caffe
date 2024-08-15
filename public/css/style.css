@@ -564,7 +564,7 @@
 /* From Uiverse.io by samuelfcosta18 */
 section.card-menu-produk {
   position: relative;
-  width: 400px;
+  width: 350px;
   height: 200px;
   background-color: #313139;
   border-radius: 10px;
@@ -667,4 +667,8 @@ section.card-menu-produk {
   border-radius: inherit;
   background: #313139;
   transition: all 0.475s;
+}
+
+.paragraf-about {
+  text-align: justify;
 }

@@ -14,13 +14,13 @@
 
 <!-- Single Product Start -->
 <div class="container-fluid py-5 mt-5">
-    <div class="container py-5">
+    <div class="container">
         <h1>
             <a href="<?= site_url('article'); ?>" class="text-dark">
                 <i class="bi bi-arrow-left-circle-fill text-dark"></i> Back
             </a>
         </h1>
-        <div class="row g-4 mb-5">
+        <div class="row g-4 mb-5 py-5">
             <div class="col-lg-8 col-xl-9">
                 <div class="row g-4">
                     <div>
@@ -58,9 +58,8 @@
                     <div class="col-lg-12">
                         <h4 class="mb-4">Another Article</h4>
                         <section id="card1" class="card-menu-produk my-3">
-                            <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
-                                <img src="<?= base_url('images/kopi1.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
-                                <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
+                            <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0">
+                                <img src="images/kopi1.jpg" class="card-img-top img-fluid card-img-fixed" alt="...">
                             </svg>
                             <div class="card__content">
                                 <p class="card__title">Temukan Inspirasi di Cafetaria Caffee</p>
@@ -73,7 +72,7 @@
                         </section>
                         <section id="card1" class="card-menu-produk my-3">
                             <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
-                                <img src="<?= base_url('images/random.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
+                                <img src=images/random.jpg class="card-img-top img-fluid card-img-fixed" alt="...">
                                 <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
                             </svg>
                             <div class="card__content">
@@ -87,7 +86,7 @@
                         </section>
                         <section id="card1" class="card-menu-produk my-3">
                             <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
-                                <img src="<?= base_url('images/rock.jpg'); ?>" class="card-img-top img-fluid card-img-fixed" alt="...">
+                                <img src='images/rock.jpg' class="card-img-top img-fluid card-img-fixed" alt="...">
                                 <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
                             </svg>
                             <div class="card__content">

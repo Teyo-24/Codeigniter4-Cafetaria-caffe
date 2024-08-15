@@ -16,27 +16,27 @@
             <div class="col-lg-6">
                 <div class="py-4">
                     <h3 class="display-6 text-dark text-center">Welcome To Cafetaria Caffe</h3>
-                    <!-- <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p> -->
-                    <div class="d-flex justify-content-between py-4">
-                        <h3 class="judul-about"><i class="fas fa-concierge-bell text-warning"></i> Best Services</h3>
-                        <h3 class="judul-about"><i class="bi bi-award-fill text-warning"></i> Good Facilities</h3>
+                    <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center py-4">
+                        <h3 class="judul-about text-center mb-3 mb-md-0"><i class="fas fa-concierge-bell text-warning"></i> Best Services</h3>
+                        <h3 class="judul-about text-center"><i class="bi bi-award-fill text-warning"></i> Good Facilities</h3>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p class="paragraf-about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="position-relative d-flex justify-content-evenly">
-                    <img src="images/cafe1.png" class="img-fluid w-50 rounded" alt="">
+                <div class="d-flex justify-content-center">
+                    <img src="images/cafe1.png" class="img-fluid w-50 rounded" alt="Cafe Image">
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <!-- Featurs Section Start -->
 <div class="container-fluid featurs mb-5">
     <div class="container">
         <div class="row g-4">
-            <h3 class="judul-about text-center">Take us with you</h3>
+            <h3 class="judul-about text-center">What will you get</h3>
             <div class="col-md-6 col-lg-3">
                 <div class="featurs-item text-center rounded bg-light p-4">
                     <div class="featurs-icon btn-square rounded-circle bg-secondary mb-5 mx-auto">
