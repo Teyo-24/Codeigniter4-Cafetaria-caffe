@@ -220,4 +220,5 @@
     </div>
     <div class="py-3">
     </div>
-    <?= $this->endsection('content'); ?>
+</div>
+<?= $this->endsection('content'); ?>

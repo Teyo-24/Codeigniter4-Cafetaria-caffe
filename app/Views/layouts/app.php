@@ -55,7 +55,7 @@
         </div>
         <div class="container px-0">
             <nav class="navbar navbar-light bg-dark navbar-expand-xl d-flex align-items-center">
-                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <a href="<?= site_url('/'); ?>" class="navbar-brand d-flex align-items-center">
                     <img src="<?= base_url('/images/cafe2.png') ?>" alt="Cafe Image" class="img-cafe" style="height: 60px; margin-right: 10px;">
                     <h1 class="text-white display-6 mb-0 mt-3">Cafetaria</h1>
                 </a>
@@ -98,7 +98,7 @@
                 <div class="row mt-4">
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4 me-5 text-center text-white">About company</h5>
+                        <h5 class="text-uppercase mb-4 text-center text-white">About company</h5>
 
                         <p>
                             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium

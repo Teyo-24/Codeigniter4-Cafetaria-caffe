@@ -1,5 +1,5 @@
-<?= $this->extend('layouts/app');; ?>
-<?= $this->section('content');; ?>
+<?= $this->extend('layouts/app'); ?>
+<?= $this->section('content'); ?>
 <!-- Single Page Header start -->
 <div class="container-fluid page-header py-5">
     <h1 class="text-center text-white display-6">Our Article</h1>
@@ -10,7 +10,6 @@
     </ol>
 </div>
 <!-- Single Page Header End -->
-
 
 <!-- Single Product Start -->
 <div class="container-fluid py-5 mt-5">
@@ -52,50 +51,31 @@
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3">
-                <div class="row g-4 fruite">
-                    <div class="col-lg-12">
-                    </div>
+                <div class="row g-4">
                     <div class="col-lg-12">
                         <h4 class="mb-4">Another Article</h4>
-                        <section id="card1" class="card-menu-produk my-3">
-                            <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0">
-                                <img src="images/kopi1.jpg" class="card-img-top img-fluid card-img-fixed" alt="...">
-                            </svg>
+                        <!-- Card 1 -->
+                        <section class="card-menu-produk my-3">
+                            <img src="images/kopi1.jpg" class="img-fluid" alt="...">
                             <div class="card__content">
                                 <p class="card__title">Temukan Inspirasi di Cafetaria Caffee</p>
-                                <p class="card__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-                                    justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,
-                                    tincidunt augue id, efficitur massa.
-                                </p>
+                                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra, tincidunt augue id, efficitur massa.</p>
                             </div>
                         </section>
-                        <section id="card1" class="card-menu-produk my-3">
-                            <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
-                                <img src=images/random.jpg class="card-img-top img-fluid card-img-fixed" alt="...">
-                                <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
-                            </svg>
+                        <!-- Card 2 -->
+                        <section class="card-menu-produk my-3">
+                            <img src="images/random.jpg" class="img-fluid" alt="...">
                             <div class="card__content">
                                 <p class="card__title">Lingkungan yang Nyaman</p>
-                                <p class="card__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-                                    justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,
-                                    tincidunt augue id, efficitur massa.
-                                </p>
+                                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra, tincidunt augue id, efficitur massa.</p>
                             </div>
                         </section>
-                        <section id="card1" class="card-menu-produk my-3">
-                            <svg viewBox="0 0 16 16" fill="currentColor" height="40" width="0" xmlns="http://www.w3.org/2000/svg">
-                                <img src='images/rock.jpg' class="card-img-top img-fluid card-img-fixed" alt="...">
-                                <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"></path>
-                            </svg>
+                        <!-- Card 3 -->
+                        <section class="card-menu-produk my-3">
+                            <img src="images/rock.jpg" class="img-fluid" alt="...">
                             <div class="card__content">
                                 <p class="card__title">Hadiah untuk pengunjung</p>
-                                <p class="card__description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-                                    justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra,
-                                    tincidunt augue id, efficitur massa.
-                                </p>
+                                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae justo vel lorem tincidunt ultrices at non nunc. Donec in sapien viverra, tincidunt augue id, efficitur massa.</p>
                             </div>
                         </section>
                     </div>
@@ -108,4 +88,4 @@
 
 <!-- Back to Top -->
 <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
-<?= $this->endsection('content');; ?>
+<?= $this->endsection('content'); ?>

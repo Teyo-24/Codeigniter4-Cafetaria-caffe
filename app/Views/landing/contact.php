@@ -75,7 +75,7 @@
                                 <i class="fas fa-envelope-square fa-2x text-warning me-4"></i>
                                 <div>
                                     <h4>Mail Us</h4>
-                                    <p class="mb-2">cafetaria@example.com</p>
+                                    <p class="mb-2">cafetaria @gmail.com</p>
                                 </div>
                             </div>
                         </div>
