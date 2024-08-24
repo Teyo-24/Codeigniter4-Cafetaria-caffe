@@ -12,213 +12,28 @@
 
 <div class="container">
     <div class="py-5">
-        <h2 class="judul-about">Coffee-Based Drinks</h2>
+        <h2 class="judul-about text-center">Product Menu</h2>
     </div>
     <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-                <a href="<?= site_url('detail-product'); ?>">
-                    <div class="row g-0">
+        <?php foreach ($data as $item) : ?>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 d-flex flex-column">
+                    <div class="row g-0 flex-grow-1">
                         <div class="col-md-4">
-                            <img src="images/kopi1.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
+                            <img src="<?= base_url('images/' . $item['foto_produk']); ?>" class="img-fluid card-img-fixed rounded-start" alt="...">
                         </div>
                         <div class="col-md-8 d-flex align-items-center">
                             <div class="card-body">
-                                <h5 class="card-title">Cappuccino</h5>
-                                <p class="text-dark">With supporting text below as a natural lead-in to additional content.</p>
+                                <h5 class="card-title judul-about"><?= $item['nama_produk_en']; ?></h5>
+                                <p class="text-dark mb-0"><?= $item['deskripsi_produk_en']; ?></p>
                             </div>
                         </div>
                     </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <a href="<?= site_url('detail-product'); ?>">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="images/latte.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <div class="card-body">
-                                <h5 class="card-title">Coffee Latte</h5>
-                                <p class="text-dark">With supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row py-5">
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/black-coffe.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Black Coffee</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
+                    <!-- <a href="<?= site_url('detail-product'); ?>" class="stretched-link"></a> -->
                 </div>
             </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/kopi1.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-3">
-        <h2 class="judul-about">Non-Coffee Drinks</h2>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/es.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Coccolate Ice</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/ice-drink.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Ice Tea</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row py-5">
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/milk.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Milk Shake</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/juice.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Fruite Juice</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-3">
-    </div>
-    <div class="py-3">
-        <h2 class="judul-about">Food & Snack</h2>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/sandwich.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandwich</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/burger.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Super Burger</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row py-5">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/nasi.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Fried Rice</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="images/kentang.jpg" class="img-fluid card-img-fixed rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8 d-flex align-items-center">
-                        <div class="card-body">
-                            <h5 class="card-title">French Fries</h5>
-                            <p>With supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="py-3">
+        <?php endforeach; ?>
     </div>
 </div>
+
 <?= $this->endsection('content'); ?>

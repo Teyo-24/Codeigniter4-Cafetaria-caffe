@@ -15,12 +15,14 @@
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">
                 <div class="py-4">
-                    <h3 class="display-6 text-dark text-center">Welcome To Cafetaria Caffe</h3>
-                    <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center py-4">
-                        <h3 class="judul-about text-center mb-3 mb-md-0"><i class="fas fa-concierge-bell text-warning"></i> Best Services</h3>
-                        <h3 class="judul-about text-center"><i class="bi bi-award-fill text-warning"></i> Good Facilities</h3>
-                    </div>
-                    <p class="paragraf-about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <?php foreach ($data as $item) : ?>
+                        <h3 class="display-6 text-dark text-center">Welcome To <?= $item['nama_perusahaan']; ?></h3>
+                        <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center py-4">
+                            <h3 class="judul-about text-center mb-3 mb-md-0"><i class="fas fa-concierge-bell text-warning"></i> Best Services</h3>
+                            <h3 class="judul-about text-center"><i class="bi bi-award-fill text-warning"></i> Good Facilities</h3>
+                        </div>
+                        <p class="paragraf-about"><?= $item['deskripsi_perusahaan_en']; ?></p>
+                    <?php endforeach; ?>
                 </div>
             </div>
             <div class="col-lg-6">

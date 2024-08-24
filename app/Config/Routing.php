@@ -48,7 +48,7 @@ class Routing extends BaseRouting
      *
      * Default: 'Home'
      */
-    public string $defaultController = 'Landing/LandingContoller';
+    public string $defaultController = 'Home';
 
     /**
      * For Defined Routes and Auto Routing.
@@ -57,7 +57,7 @@ class Routing extends BaseRouting
      *
      * Default: 'index'
      */
-    public string $defaultMethod = 'landing';
+    public string $defaultMethod = 'index';
 
     /**
      * For Auto Routing.
